@@ -4,4 +4,56 @@
     padding: 0;
     margin: 0;
     box-sizing: none;
+    font-family: 'Quicksand'
 }
+
+:root{
+    --white: rgb(238, 234, 234);
+    --black: rgb(20, 19, 19);
+    --gray: rgb(136, 136, 136);
+    --darkPurple: #211E42;
+    --lightPurple: #44406F;
+}
+
+
+h1{
+
+}
+
+p{
+    color:var(--gray) ;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

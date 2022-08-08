@@ -1,0 +1,57 @@
+:root{
+    --white: rgb(238, 234, 234);
+    --black: rgb(20, 19, 19);
+    --gray: rgb(136, 136, 136);
+    --darkPurple: #211E42;
+    --lightPurple: #44406F;
+    --purplelish: #A59EFF;
+}
+
+.navbar__pc{
+    display: flex;
+    background-color: var(--darkPurple);
+    justify-content: space-around;
+}
+.navbar__pc .navbar__logo img{
+    height: auto;
+    width: 150px;
+}
+
+.navbar__pc .navbar__links{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.navbar__pc .navbar__links li {
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar__pc .navbar__links li a {
+    color: var(--white);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar__pc .button__navbar{
+    height: 60px;
+    width: 120px;
+    margin-top: 40px;
+
+    border-radius: 6px; 
+    font-size: 16px;
+
+    color: var(--white);
+    background-color: var(--purplelish);
+    border: none;
+
+    cursor: pointer;
+
+    transition: .4s;
+}
+
+.navbar__pc .button__navbar:hover {
+    background-color: var(--white);
+    color: var(--purplelish);
+    border: 1px solid var(--purplelish)
+}
